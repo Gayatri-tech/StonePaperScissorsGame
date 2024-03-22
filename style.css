@@ -1,0 +1,44 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  background-color: #fca311;
+}
+nav {
+  height: 40px;
+  background-color: #14213d;
+  color: yellow;
+  font-size: 1.5em;
+  padding: 0.2rem;
+}
+.btnContainer {
+  height: 10vh;
+  width: 600px;
+  margin: 2rem auto;
+}
+button {
+  padding: 10px 20px;
+  margin: 0.5rem;
+  border-radius: 5px;
+  border: 2px solid black;
+}
+.btn:hover {
+  cursor: pointer;
+}
+.scoreContainer {
+  font-size: 1.4rem;
+  width: 150px;
+  margin: 2rem auto;
+  display: flex;
+  justify-content: space-between;
+}
+#mesg {
+  background-color: lightskyblue;
+  margin: 1rem;
+}
