@@ -21,8 +21,8 @@ const showWinner = (youWin, yourChoice, pcChoice) => {
     you.innerText = youScore;
   } else {
     mesg.innerHTML = `Sorry! You lose. The ${pcChoice} beat you`;
-    mesg.style.backgroundColor = "red";
-    mesg.style.color = "white";
+    mesg.style.backgroundColor = "#ff6666";
+    mesg.style.color = "black";
     ++pcScore;
     pc.innerText = pcScore;
   }
