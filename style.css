@@ -38,7 +38,10 @@ button {
   display: flex;
   justify-content: space-between;
 }
+.youContainer,
+.cpContainer {
+  margin-right: 2rem;
+}
 #mesg {
   background-color: lightskyblue;
-  /* margin: 1rem; */
 }

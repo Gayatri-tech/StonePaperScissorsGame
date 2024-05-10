@@ -12,7 +12,7 @@ const generateChoice = () => {
   return options[randNum];
 };
 
-const showWinner = (youWin, yourChoice, pcChoice) => {
+const showWinner = (youWin, pcChoice) => {
   if (youWin) {
     mesg.innerHTML = `Congratulations! You won. You beat the ${pcChoice} `;
     mesg.style.backgroundColor = "green";
@@ -45,7 +45,7 @@ const playGame = (yourChoice) => {
     } else {
       youWin = pcChoice === "stone" ? false : true;
     }
-    showWinner(youWin, yourChoice, pcChoice);
+    showWinner(youWin, pcChoice);
   }
 };
 
